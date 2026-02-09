@@ -23,17 +23,35 @@ public class Program()
 
         //3. Criando um arquivo Word .Doc
 
+        //string path = @"D:\c-sharp\ArquivosFile\ArquivosFile";
+        //string fileName = "MyDocument.Doc";
+        //string filePath = path + fileName;
+        //string content = "Hello World";
+
+
+        //File.WriteAllText(filePath, content);
+        //Console.WriteLine("Arquivo Word criado com sucesso!");
+
+        //4. Inserir um paragráfo em um arquivo -> FIle.AppendAllText
+
+        //string path = @"D:\c-sharp\ArquivosFile\ArquivosFile";
+        //string fileName = "MyDocument.Doc";
+        //string filePath = path + fileName;
+
+        //string aditionalContent = " |Curso de C# e .NET|";
+
+        //File.AppendAllText(filePath, aditionalContent);
+        //Console.WriteLine("Arquivo atualizado com sucesso!");
+
+        //5. Ler o Arquivo -> File.ReadAllText()
+
         string path = @"D:\c-sharp\ArquivosFile\ArquivosFile";
         string fileName = "MyDocument.Doc";
         string filePath = path + fileName;
-        string content = "Hello World";
 
+        string fileContent = File.ReadAllText(filePath);
 
-        File.WriteAllText(filePath, content);
-        Console.WriteLine("Arquivo Word criado com sucesso!");
-
-        //4. Inserir um paragráfo em um arquivo
-
+        Console.WriteLine(fileContent);
 
 
 
