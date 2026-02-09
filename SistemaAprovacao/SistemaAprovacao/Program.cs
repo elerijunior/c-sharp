@@ -35,8 +35,6 @@ public class Program()
             default:
                 Console.WriteLine("Sua nota tem que ser entre 0 e 10");
                 break;
-
         }
-
     }
 }
