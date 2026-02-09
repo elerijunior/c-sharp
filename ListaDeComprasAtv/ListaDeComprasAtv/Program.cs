@@ -82,8 +82,6 @@ public class Program
                     Console.WriteLine("Entrada Inválida! Tente novamente.");
                 break;
             }
-
         }
-
     }
 }
