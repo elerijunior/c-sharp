@@ -9,7 +9,7 @@ public class Program
         //1. Estrutura da Lista
         
         string path = @"D:\c-sharp\ListaDeComprasAtv\ListaDeComprasAtv\";
-        string fileName = "Lista_de_Compras.txt";
+        string fileName = "mercado.txt";
         string filePath = path + fileName;
 
         List<string> shoppingList = new List<string>();
