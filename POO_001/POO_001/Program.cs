@@ -40,6 +40,5 @@ public class Program()
             Console.WriteLine(cake.ValueCake);
             Console.WriteLine("--------------------------");
         }
-
     }
 }
